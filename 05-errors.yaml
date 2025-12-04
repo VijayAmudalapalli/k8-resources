@@ -1,8 +1,29 @@
+#==================================
+# Error: ErrImagePull
+# Back-off pulling image "nginxvij"
+# Error: ImagePullBackOff
+#==================================
+# apiVersion: v1
+# kind: Pod
+# metadata:
+#   name: error-test
+# spec:
+#   containers:
+#     - name: nginx
+#       image: nginxvij
+
+
+
+#==================================
+# Error: ErrImagePull
+# Back-off pulling image "nginxvij"
+# Error: ImagePullBackOff
+#==================================
 apiVersion: v1
 kind: Pod
 metadata:
   name: error-test
 spec:
   containers:
-    - name: nginx
-      image: nginxvij
+    - name: almalinux
+      image: almalinux:9
