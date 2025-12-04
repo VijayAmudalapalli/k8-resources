@@ -15,10 +15,11 @@
 
 
 #==================================
-# Error: ErrImagePull
-# Back-off pulling image "nginxvij"
-# Error: ImagePullBackOff
-#==================================
+# NAME              READY   STATUS             RESTARTS     AGE
+# error-test        0/1     CrashLoopBackOff   1 (4s ago)   9s
+
+#  Back-off restarting failed container almalinux in pod error-test_default
+# #==================================
 apiVersion: v1
 kind: Pod
 metadata:
