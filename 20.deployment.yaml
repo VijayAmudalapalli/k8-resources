@@ -21,6 +21,7 @@ spec:
       labels:
       # purpose: dp-demo
       purpose: headless-svc-demo
+      project: roboshop
     spec:
       containers:
       - name: nginx
