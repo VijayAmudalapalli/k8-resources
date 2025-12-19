@@ -19,9 +19,9 @@ spec:
   template:
     metadata:
       labels:
-      # purpose: dp-demo
-      purpose: headless-svc-demo
-      project: roboshop
+        # purpose: dp-demo
+        purpose: headless-svc-demo
+        project: roboshop
     spec:
       containers:
       - name: nginx
