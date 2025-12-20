@@ -34,6 +34,7 @@ kind: Service
 metadata:
   name: nginx
 spec:
+  type: LoadBalancer
   selector:
     # purpose: dp-demo
     purpose: headless-svc-demo
